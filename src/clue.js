@@ -98,12 +98,24 @@ const weaponsArray = [
 
 // ITERATION 2
 
-function selectRandom() {
-}
-function pickMystery() {}
+function selectRandom(myArray) {
+    if(myArray.lenght === 0) return undefined;
+    if(myArray.lenght ===1) return myArray[0];
+    const randomElement = myArray[(Math.random() *myArray.lenght) | 0];
+    return randomElement;
+    }
 
+function pickMystery() {
+    const mystery = {
+        suspect : selectRandom(suspectsArray),
+        weapon : selectRandom(weaponsArray),
+        room : selectRandom(roomsArray),
+    };
+    return mystery;
+};
 
 // ITERATION 3
 
-function revealMystery() {}
-
+function revealMystery(randomObj) {
+return `${randomObj.suspect.firstName} ${randomObj.suspect.lastName} killed MediaRecorder. Boddy using the ${randomObj.weapon.name} in the ${randomObj.room.name}!`;
+}
