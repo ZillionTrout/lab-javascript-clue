@@ -66,7 +66,7 @@ const suspectsArray = [mrGreen, drOrchid, profPlum, missScarlet, mrsPeacock, mrM
 const diningRoom = {name: 'Dining Room'};
 const conservatory ={name: 'Conservatory'};
 const kitchen ={name: 'Kitchen'};
-const Study ={name: 'Study'};
+const study ={name: 'Study'};
 const library ={name: 'Library'};
 const billiardRoom = {name: 'Billiard Room'};
 const lounge = {name: 'Lounge'};
@@ -79,7 +79,7 @@ const theater = {name: 'Theater'};
 const guestHouse = {name: 'Guest House'};
 const patio = {name: 'Patio'};
 
-const roomsArray = [diningRoom, conservatory, kitchen, Study, library, billiardRoom, lounge, ballRoom, hall, spa, livingRoom, observatory, theater, guestHouse, patio];
+const roomsArray = [diningRoom, conservatory, kitchen, study, library, billiardRoom, lounge, ballRoom, hall, spa, livingRoom, observatory, theater, guestHouse, patio];
 
 // Weapons Array
 
